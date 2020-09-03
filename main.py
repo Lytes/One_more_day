@@ -27,6 +27,7 @@ def folder_check():
 		if "com.termux" in str(os.path.expanduser("~")):
 			base_path = str(os.path.join("/storage/emulated/0","OMDay"))
 			today_path = str(os.path.join(base_path,today))
+			basic_checks()
 		elif str(os.name) == "nt":
 			print("[+] Kindly add base_path in OMGconfig.py")
 			sys.exit()
