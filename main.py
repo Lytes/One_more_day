@@ -22,6 +22,7 @@ def folder_check():
 			sys.exit()
 		base_path = str(os.path.join(str(cfg.download_directory),"OMDay"))
 		today_path = str(os.path.join(base_path,today))
+		basic_checks()
 	except Exception:
 		if "com.termux" in str(os.path.expanduser("~")):
 			base_path = str(os.path.join("/storage/emulated/0","OMDay"))
