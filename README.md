@@ -8,6 +8,7 @@ Works for Termux too.
 # Steps
 ```
 pip3 install youtube-dl
+pip install --upgrade youtube-dl
 git clone https://github.com/Lytes/One_more_day.git
 cd One_more_day
 python3 main.py
